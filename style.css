@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Anuphan&family=Lato&family=Open+Sans&display=swap');
+*{
+    margin: 0;
+}
+
+    /*Navbar style*/
+.navbar{
+    background-color: #AEA8A1;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed ;
+    width: 100%;
+}
+.a-navbar{
+    text-decoration: none;
+    color: black;
+    font-family: 'Anuphan', sans-serif;   
+    font-weight: bold;
+    font-size: 20px;
+}
+.a-navbar:hover{
+    transition: 0.8s;
+    opacity: 0.6;
+    cursor: pointer;
+}
+.title{
+    font-size: 45px;
+    font-family: 'Great Vibes', cursive;  
+}
+@media (max-width: 576px)
+ {
+    .nav-item{
+        display: none;
+    }
+}
+.nav-item{
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+}
+/*Product style*/
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+.box1{
+    align-self: flex-start;
+    margin: 40px;
+}
+#product{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.header{
+    text-align: center;
+    font-family: 'Great Vibes', cursive; 
+    margin-top: 15px;
+}
+.description1{
+    margin-left: 17px;
+    margin-top: -55px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.prix{
+    margin-left: 130px;
+    margin-top: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.box1:hover{
+    
+    transition: 0.8s;
+    cursor: pointer;
+}
+.submit{
+    position: fixed;
+    
+}
+#btn{
+    border-radius: 10px;
+    border: none;
+    width: 130px;
+    height: 40px;
+    margin-left: 90px;
+    margin-top: 20px;
+    
+}
+
